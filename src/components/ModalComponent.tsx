@@ -1,6 +1,6 @@
 import Modal from "react-modal";
 
-Modal.setAppElement("#root"); // Asegúrate de que el modal se monte en el elemento correcto
+Modal.setAppElement("#root");
 
 export default function ModalComponent({
   isOpen,
